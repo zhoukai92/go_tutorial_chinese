@@ -5,8 +5,12 @@ import "fmt"
 func main() {
 	//demo00()
 	//demo01()
-	demo02()
+	//demo02()
+	fmt.Printf("aaaa\r")
+	fmt.Println("bb")
 
+	p := new(int)
+	fmt.Println(*p, p)
 }
 
 // 判断是否出现异常
